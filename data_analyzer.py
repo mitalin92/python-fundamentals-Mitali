@@ -1,5 +1,4 @@
 # data_analyzer.py
-# simple analyzer script
 
 import argparse
 from utils import get_sample   # import from utils.py
@@ -17,7 +16,7 @@ def main():
     data = get_sample()          # list of dicts
     sales = []
 
-    # loop + casting
+    # loop 
     for row in data:
         s = int(row["sales"])    # string -> int
         sales.append(s)
@@ -42,7 +41,6 @@ def main():
     # min and max
     print("Min:", min(sales), "Max:", max(sales))
 
-    # while loop
     count = 3
     while count > 0:
         print("Countdown:", count)
