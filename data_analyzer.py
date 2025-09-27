@@ -13,7 +13,7 @@ def main():
     print(script_name, "v", version)
 
     # get data
-    data = get_sample()          # list of dicts
+    data = get_sample()          
     sales = []
 
     # loop 
