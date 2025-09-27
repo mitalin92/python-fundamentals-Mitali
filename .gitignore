@@ -1,9 +1,11 @@
-# Ignore virtual environment 
+# Virtual environment folders
 venv/
+env/
+.venv/
+.env/
+
+# Python cache files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.DS_Store
-.env
-.ipynb_checkpoints/
