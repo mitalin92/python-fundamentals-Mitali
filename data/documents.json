@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "doc1",
+    "pages": 120,
+    "authors": ["Mitali", "Rohan"],
+    "published": true,
+    "metadata": {"language": "English", "level": "Beginner"}
+  },
+  {
+    "id": 2,
+    "title": "doc2",
+    "pages": 250,
+    "authors": ["Rutva"],
+    "published": false,
+    "metadata": {"language": "English", "level": "Advanced"}
+  },
+  {
+    "id": 3,
+    "title": "doc3",
+    "pages": 300,
+    "authors": ["Rushi", "Rucha"],
+    "published": true,
+    "metadata": {"language": "Hindi", "topics": ["Data", "ML", "AI"]}
+  },
+  {
+    "id": 4,
+    "title": "doc4",
+    "pages": 180,
+    "authors": ["Priya"],
+    "published": true,
+    "metadata": {"language": "English", "level": "Intermediate"}
+  },
+  {
+    "id": 5,
+    "title": "doc5",
+    "pages": 400,
+    "authors": ["Sneha", "Meera"],
+    "published": false,
+    "metadata": {"language": "English", "topics": ["Neural Networks", "AI"]}
+  },
+  {
+    "id": 6,
+    "title": "doc6",
+    "pages": 220,
+    "authors": ["Kiran"],
+    "published": true,
+    "metadata": {"language": "English", "frameworks": ["Django", "Flask"]}
+  },
+  {
+    "id": 7,
+    "title": "doc7",
+    "pages": 150,
+    "authors": ["Sita", "Ram"],
+    "published": false,
+    "metadata": {"language": "English", "db_types": ["SQL", "NoSQL"]}
+  },
+  {
+    "id": 8,
+    "title": "doc8",
+    "pages": 310,
+    "authors": ["Devika"],
+    "published": true,
+    "metadata": {"language": "English", "providers": ["AWS", "Azure", "GCP"]}
+  },
+  {
+    "id": 9,
+    "title": "doc9",
+    "pages": 275,
+    "authors": ["Krishna"],
+    "published": true,
+    "metadata": {"language": "English", "topics": ["Network", "Encryption"]}
+  },
+  {
+    "id": 10,
+    "title": "doc10",
+    "pages": 190,
+    "authors": ["Nilesh", "Geeta"],
+    "published": false,
+    "metadata": {"languages": ["Python", "Java", "C++"]}
+  }
+]
