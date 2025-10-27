@@ -1,0 +1,3 @@
+id,name,email,active,roles
+1,Mitali Acharya,mitali@gmail.com,True,"admin;editor"
+2,Rohan Bansal,Rohan@gmail.com,False,"viewer"

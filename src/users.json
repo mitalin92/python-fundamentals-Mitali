@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Mitali Acharya",
+    "email": "mitali@gmail.com",
+    "active": true,
+    "roles": ["admin", "editor"]
+  },
+  {
+    "id": 2,
+    "name": "Rohan Bansal",
+    "email": "Rohan@gmail.com",
+    "active": false,
+    "roles": ["viewer"]
+  }
+]
