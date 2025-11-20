@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  mongo:
+    image: mongo:latest
+    container_name: my-mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mitali
+      MONGO_INITDB_ROOT_PASSWORD: mitali123
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./data:/data/db
+      - ./init-mongo:/docker-entrypoint-initdb.d/
