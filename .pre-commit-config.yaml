@@ -18,3 +18,4 @@ repos:
         files: \.py$   
         additional_dependencies:
           - pydantic>=2.0
+          - types-requests
